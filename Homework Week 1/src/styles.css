@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-look{
+    display: block;
+    margin: 0 auto 30px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color:#7fa;
+    font-size: 14px;
+}
+
+.joke-container{
+    background-color: rgb(243, 244, 191);
+    margin: 10px 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.response{
+    font-size: 14px;
+}
