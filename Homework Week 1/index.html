@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  <script src="src/index.js"></script>
   <link href="src/styles.css" rel="stylesheet" type="text/css" />
   <title>Joke Generator</title>
 </head>
@@ -13,11 +12,12 @@
   <div class="container">
     <h1>Dad Jokes Generator</h1>
     <div>
-      <button class="button-look" id="joke-button" type="button">Tell me a dad joke</button>
+      <button class="button-look" id="joke-button">Tell me a dad joke</button>
     </div>
     <div class="joke-container">
-      <main class="response">Joke</main>
+      <main class="response" id="joke-response">Joke</main>
     </div> 
+    <script src="src/index.js"></script>
   </div>   
 </body>
 </html>
