@@ -1,25 +1,37 @@
 h1{
     text-align: center;
+    padding-top: 30px;
 }
 
 .container{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    min-height: 250px;
+    background-color: #ff8364;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 .button-look{
     display: block;
-    margin: 0 auto 30px;
-    padding: 10px 5px;
+    margin: 30px auto;
+    padding: 10px;
     border-radius: 5px;
-    background-color:#7fa;
     font-size: 14px;
+    background-color:#6bd5e1;
 }
 
 .joke-container{
-    background-color: rgb(243, 244, 191);
-    margin: 10px 40px;
+    margin: 0 40px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 30px;
+    min-height: 50px;
+}
+
+.joke-response{
+    background-color: #ffd98e;
 }
 
 .response{
